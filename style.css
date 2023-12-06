@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+    padding: 5px;
+    width: 900px;
+    height: 300px;
+    margin: 20px auto;
+}
+
+.container input[type="image"] {
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    image-rendering: auto;
+}
+
+#container1 {
+    background-color: skyblue;
+}
+
+#container2 {
+    background-color: pink;
+}
+
+#container3 {
+    background-color: lightgreen;
+}
