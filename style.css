@@ -51,6 +51,8 @@ h1 {
     border-radius: 30px;
     border: 3px solid blanchedalmond;
     margin-bottom: 10px;
+    /* Instead of this put a div around everything from line 43 - 60
+    in the html to also create spaces between containers */
 }
 
 .container > img {
