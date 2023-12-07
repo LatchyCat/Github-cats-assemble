@@ -1,4 +1,4 @@
-h1 {
+/* h1 {
     text-align: center;
     margin: 20px;
     padding: 5px;
@@ -32,4 +32,41 @@ h1 {
 
 #container3 {
     background-color: lightgreen;
+} */
+
+/* <!-- Review code with senior 12_7_2023 --> */
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: skyblue;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 30px;
+    border: 3px solid blanchedalmond;
+    margin-bottom: 10px;
+}
+
+.container > img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#container1 {
+    background-color: rgb(235, 223, 135);
+}
+
+#container2 {
+    background-color: rgb(192, 255, 237);
+}
+
+#container3 {
+    background-color: rgb(139, 214, 139);
 }
